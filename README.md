@@ -1,2 +1,3 @@
-# cursos-origamid
-Repositório de realização de cursos na plataforma Origamid
+# Cursos Origamid
+
+Curso em andamento: HTML e CSS para iniciantes
