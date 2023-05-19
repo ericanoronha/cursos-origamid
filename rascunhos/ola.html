@@ -1,0 +1,19 @@
+<h1 id="texto">Olá, mundo</h1>
+<a href="#" title="ancora" target="_blank">Teste</a>
+<style>
+    body {
+        background: lightgray;
+    }
+
+    h1 {
+        color: blue;
+        cursor: pointer;
+        text-shadow: 2px 1px white
+    }
+</style>
+<script>
+    function mudar() {
+        texto.style.color = 'red'
+    }
+    texto.addEventListener('click', mudar)
+</script>
