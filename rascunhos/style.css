@@ -1,36 +1,17 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
 .grid {
     display: grid;
+    margin-top: 30px;
     gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, 1fr);
 }
 
-.info {
-    display: grid;
-    place-self: start;
-    place-items: start;
-    gap: 20px;
-}
-
-.titulo {
-    grid-column: 1 / -1;
-}
-
-
-.preco {
-    background: #ddd;
-    padding: 5px 10px;
-    border-radius: 4px;
-    text-align: center;
-}
-
-.comprar {
-    padding: 10px 20px;
-    background: #a8f;
-    border-radius: 4px;
-    color: #103;
-    text-decoration: none;
-    text-align: center;
-}
 
 
 /* Estilos gerais */
@@ -43,6 +24,14 @@ body {
 h1 {
     font-size: 48px;
     line-height: 1;
+}
+
+h2 {
+    background: #e7e7e7;
+    border: 1px dashed #d7d7d7;
+    padding: 20px;
+    margin: 0;
+    flex: 1;
 }
 
 p,
