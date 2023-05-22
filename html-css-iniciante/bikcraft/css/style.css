@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: aqua;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.visually-hidden {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+    clip: rect(1px, 1px, 1px, 1px);
+    /*maybe deprecated but we need to support legacy browsers */
+    clip-path: inset(50%);
+    /*modern browsers, clip-path works inwards from each corner*/
+    white-space: nowrap;
+    /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+}
+
+header {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    place-items: center center;
+    padding: 60px 0;
+    gap: 50px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    list-style: none;
+    text-transform: uppercase;
+    background: white;
+    padding: 15px 20px 13px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+}
+
+article {
+    background: #fff;
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    display: grid;
+    gap: 20px;
+    align-content: center;
+    justify-items: end;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background: #e21;
+    color: #fff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.bicicleta {
+    max-width: 100%;
+}
+
+.vantagens>ul {
+    background: purple;
+}
+
+.vantagens ul li {
+    border: 1px solid yellow;
+}
