@@ -52,3 +52,8 @@ h1 {
             LightSteelBlue 84%,
             LemonChiffon 90%);
 }
+
+.radial {
+    height: 200px;
+    background-image: radial-gradient(circle, black, lightblue, lightcoral 50%, lightgreen);
+}
