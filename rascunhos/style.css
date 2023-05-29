@@ -32,3 +32,33 @@ h2::before {
     left: -2px;
     z-index: -1;
 }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+}
+
+li {
+    font-size: 1.25rem;
+    margin: none;
+}
+
+li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(darkblue, lightblue);
+    border: 1px solid darkblue;
+    margin-right: 5px;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 2rem;
+    color: blueviolet;
+}
