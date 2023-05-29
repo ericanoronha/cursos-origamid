@@ -5,18 +5,50 @@ body {
 
 
 .bicicleta {
-    height: 600px;
-    /* background-color: black;
-    background-image: url('../arquivos-de-aula/02-css-basico/0216-imagens/img/bicicleta.jpg');
+    height: 200px;
+    background-color: black;
+    background-image: url('../arquivos-de-aula/05-css-propriedades/0503-background/web/img/bicicleta.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top; */
+    background-position: center top;
     /* atalho */
-    background: url('../arquivos-de-aula/02-css-basico/0216-imagens/img/bicicleta.jpg') blue no-repeat fixed;
+    /* background: url('../arquivos-de-aula/02-css-basico/0216-imagens/img/bicicleta.jpg') blue no-repeat fixed; */
     display: flex;
 }
 
 h1 {
     margin: auto;
     background: white;
+    padding: 1rem 2rem;
+}
+
+.pattern {
+    height: 200px;
+    background-color: tomato;
+    background-image: url('../arquivos-de-aula/05-css-propriedades/0503-background/web/img/pattern.svg');
+    background-repeat: repeat;
+}
+
+.linear {
+    height: 200px;
+    /* background-image: linear-gradient(lightblue, lightcoral, lightgreen); */
+    /* background-image: linear-gradient(to right, lightblue, lightcoral); */
+    /* background-image: linear-gradient(45deg, lightblue, lightcoral); */
+    background-image: linear-gradient(to left,
+            LemonChiffon 0%,
+            LightBlue 6%,
+            LightCoral 12%,
+            LightCyan 18%,
+            LightGoldenRodYellow 24%,
+            LightYellow 30%,
+            LightGrey 36%,
+            LightGreen 42%,
+            LightPink 48%,
+            LightSalmon 54%,
+            LightSeaGreen 60%,
+            LightSkyBlue 66%,
+            LightSlateGray 72%,
+            LightSlateGrey 78%,
+            LightSteelBlue 84%,
+            LemonChiffon 90%);
 }
