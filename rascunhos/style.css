@@ -3,13 +3,9 @@ body {
     margin: 0px;
 }
 
-section {
-    background: tomato;
-
-}
 
 div {
-    width: 50%;
-    height: 100%;
+    width: calc(100vw - 100px);
+    height: calc(100vw/5);
     background: lightblue;
 }
