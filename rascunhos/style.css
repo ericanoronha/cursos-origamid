@@ -10,6 +10,17 @@ img {
 
 div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+}
+
+.galeria {
+    grid-template-columns: repeat(auto-fit, 150px);
+}
+
+@media (min-width: 400px) {
+    .minmax img {
+        /* grid-row: 2; */
+        order: 2;
+    }
 }
