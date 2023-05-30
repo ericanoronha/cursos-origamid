@@ -1,4 +1,4 @@
 # Cursos Origamid
 
 ## Curso em andamento: HTML e CSS para iniciantes
-- Aula em andamento: **0601 Responsividade**
+- Aula em andamento: **0602 Media queries**
