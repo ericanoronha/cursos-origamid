@@ -4,9 +4,10 @@ body {
     margin: 0;
     padding: 0;
     display: grid;
-    gap: 60px;
+    gap: 3.75rem;
     justify-items: center;
-    margin-top: 60px;
+    margin-top: 3.75rem;
+    font-size: 16px;
 }
 
 a {
@@ -33,93 +34,114 @@ a {
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    place-items: center center;
-    gap: 50px;
+    display: grid;
+    justify-items: center;
+    gap: 3.25rem;
 }
 
+p,
 h1,
 h2,
 h3 {
     margin: 0;
 }
 
-h1,
 h2 {
     font-size: 2em;
 }
 
 h3 {
-    font-size: 64px;
+    font-size: 4rem;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.2);
     text-align: right;
-    padding: 40px;
+    padding: 2.5rem;
     align-self: center;
 }
 
+p {
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
+
+button {
+    border: 0.125rem solid transparent;
+    border-radius: 0.25rem;
+    background: #e21;
+    color: #fff;
+    padding: 0.938rem 1.875rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 0.125rem solid #8b0000;
+}
+
+.subtitulo {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 2.5rem;
+    align-self: center;
+    background-image: url('../img/onda.svg');
+    color: rgba(0, 0, 0, 0.2);
+}
+
 ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    gap: 20px;
     margin: 0;
     padding: 0;
-}
-
-li {
     list-style: none;
 }
 
-li a {
-    list-style: none;
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+}
+
+.menu a {
+    display: block;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    color: #000;
     text-transform: uppercase;
-    background: white;
-    padding: 15px 20px 13px;
+    border: 0.125rem solid #fff;
 }
 
-main {
+.menu a:hover {
+    border-color: #e21;
+}
+
+.conteudo {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
 }
 
-article {
+.introducao {
     background: #fff;
-    padding: 40px;
+    padding: 2.5rem;
     text-align: right;
     position: relative;
     display: grid;
-    gap: 10px;
+    gap: 1.25rem;
     align-content: center;
     justify-items: end;
 }
 
-article::before {
+.introducao::before {
     content: '';
-    width: 60px;
-    position: relative;
-    top: -10px;
-    left: 70px;
-    border-bottom: 4px solid #ee2211;
+    width: 3.75rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 1.875rem;
+    right: -1.875rem;
+    background: #e21;
 }
 
-p {
-    font-size: 20px;
-}
-
-button {
-    border: none;
-    border-radius: 4px;
-    color: white;
-    background: #ee2211;
-    color: white;
-    padding: 15px 30px;
-    text-transform: uppercase;
-    cursor: pointer;
-}
 
 .bicicleta {
     max-width: 100%;
@@ -127,13 +149,30 @@ button {
 }
 
 .vantagens {
-    background: white;
-    padding: 30px 20px;
+    background: #fff;
+    padding: 2.5rem;
 }
 
-.vantagens ul li img {
-    vertical-align: middle;
+.vantagens li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+    border-left: 4px solid transparent;
 }
+
+.vantagens li:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+.vantagens li:hover {
+    border-color: #e21;
+}
+
+.vantagens li p {
+    grid-column: 2;
+}
+
 
 footer {
     display: flex;
