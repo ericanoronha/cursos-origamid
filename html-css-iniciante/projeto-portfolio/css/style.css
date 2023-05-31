@@ -1,6 +1,7 @@
 @import './global.css';
 @import './header.css';
-@import './main.css';
+@import './introducao.css';
+@import './experiencia.css';
 
 @font-face {
     font-family: "Fira Sans";
