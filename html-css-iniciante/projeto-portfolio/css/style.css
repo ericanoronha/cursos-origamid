@@ -1,2 +1,8 @@
 @import './global.css';
 @import './header.css';
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url('../font/FiraSans-Regular.ttf') format('truetype');
+    src: url('../font/FiraSans-Bold.ttf') format('truetype');
+}
