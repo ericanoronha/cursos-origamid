@@ -23,8 +23,7 @@
     display: block;
 }
 
-/* no exercício o max-width é 800px mas aqui estarei usando de 600px */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .header {
         flex-direction: column;
         gap: 40px;
