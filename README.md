@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: HTML e CSS para iniciantes
-- Aula atual: **0801 Instalar ferramentas**
+- Aula atual: **0802 Linha de comando**
 
 ### Lista de módulos do curso
 - [x] 01 HTML e CSS para Iniciantes
