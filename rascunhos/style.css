@@ -1,31 +1,16 @@
 body {
-    font-size: 16px;
+    font-size: 1.2rem;
     font-family: Arial, sans-serif;
 }
 
-img {
-    max-width: 100%;
+label {
     display: block;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.texto {
-    align-self: center;
-}
-
-p {
-    max-width: 60ch;
-}
-
-.cover img {
-    height: 100%;
-    object-fit: cover;
-    object-position: top right;
+input {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background: #ccc;
 }
