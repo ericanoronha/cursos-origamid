@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: HTML e CSS para iniciantes
-- Aula atual: **0803 NPM e CleanCSS**
+- Aula atual: **0804 Git**
 
 ### Lista de módulos do curso
 - [x] 01 HTML e CSS para Iniciantes
