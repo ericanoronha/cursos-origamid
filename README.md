@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: HTML e CSS para iniciantes
-- Aula atual: **0805 Fonts**
+- Aula atual: **00901 Formulários**
 
 ### Lista de módulos do curso
 - [x] 01 HTML e CSS para Iniciantes
@@ -11,7 +11,7 @@
 - [x] 05 CSS Propriedades
 - [x] 06 Responsivo
 - [x] 07 Projeto Portfólio
-- [ ] 08 Ferramentas
+- [x] 08 Ferramentas
 - [ ] 09 Mais HTML e CSS
 - [ ] 10 Projeto Final
 - [ ] 11 JavaScript Básico
