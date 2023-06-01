@@ -8,7 +8,7 @@
     margin: 0 auto;
     display: grid;
     align-content: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 100px;
 }
 
@@ -50,5 +50,9 @@
 
     .footer-contato li {
         font-size: 1.5rem;
+    }
+
+    .footer-copy {
+        grid-column: 1;
     }
 }
