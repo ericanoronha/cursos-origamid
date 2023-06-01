@@ -9,6 +9,7 @@
 
 .experiencia .subtitulo {
     color: #e0e0e0;
+    text-shadow: rgba(0, 0, 0, .3) 1px 1px 2px;
 }
 
 .experiencia-texto {
