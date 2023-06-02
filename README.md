@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: HTML e CSS para iniciantes
-- Aula atual: **0903 Especificidade**
+- Aula atual: **0904 Propriedades Customizadas**
 
 ### Lista de módulos do curso
 - [x] 01 HTML e CSS para Iniciantes
