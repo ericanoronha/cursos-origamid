@@ -54,3 +54,25 @@ textarea {
     height: 80px;
     width: 425px;
 }
+
+.seletores {
+    border: 2px dashed lightgray;
+    margin: 20px 0;
+    padding: 15px 10px;
+}
+
+.seletores [required] {
+    border: 2px solid red;
+}
+
+.seletores [name='email'] {
+    border: 2px solid blue;
+}
+
+.seletores [href^='#'] {
+    border: 2px solid green;
+}
+
+.seletores [href$='origamid.com'] {
+    border: 2px solid gold;
+}
