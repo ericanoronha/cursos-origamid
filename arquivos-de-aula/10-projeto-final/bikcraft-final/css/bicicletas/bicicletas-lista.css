@@ -21,50 +21,7 @@
   /* Se quiser ele com o scroll */
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-  /* Nomes de <color> */
-  scrollbar-color: rebeccapurple green;
-  /* Duas cores válidas.
-  O primeiro valor aplica-se ao Thumb, o segundo ao Track */
-
-  /* Valores globais 
-  scrollbar-color: inherit;
-  scrollbar-color: initial;
-  scrollbar-color: unset;*/
 }
-
-/* .bicicletas-lista ul::-webkit-scrollbar {
-  display: none;
-} */
-
-/* width */
-.bicicletas-lista ul::-webkit-scrollbar {
-  width: 20px;
-}
-
-/* Track */
-.bicicletas-lista ul::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-.bicicletas-lista ul::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-.bicicletas-lista ul::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox 
-.bicicletas-lista ul {
-  -ms-overflow-style: none;
-  /* IE and Edge */
-/* scrollbar-width: none; */
-/* Firefox */
-
-
 
 #home .bicicletas-lista ul {
   max-width: 1400px;
