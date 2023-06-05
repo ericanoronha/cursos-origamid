@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: HTML e CSS para iniciantes
-- Aula atual: **1003 Repositório Git**
+- Aula atual: **1004 Header e Menu**
 
 ### Lista de módulos do curso
 - [x] 01 HTML e CSS para Iniciantes
