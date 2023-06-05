@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: HTML e CSS para iniciantes
-- Aula atual: **0906 CSS Utilitário**
+- Aula atual: **1001 Análise do projeto**
 
 ### Lista de módulos do curso
 - [x] 01 HTML e CSS para Iniciantes
@@ -12,9 +12,9 @@
 - [x] 06 Responsivo
 - [x] 07 Projeto Portfólio
 - [x] 08 Ferramentas
-- [ ] 09 Mais HTML e CSS
+- [x] 09 Mais HTML e CSS
 - [ ] 10 Projeto Final
-~~- [ ] 11 JavaScript Básico~~
-~~- [ ] 12 JavaScript Projeto~~
-~~- [ ] 13 Produção~~
-~~- [ ] 14 Considerações Finais~~
+- [ ] ~~11 JavaScript Básico~~
+- [ ] ~~12 JavaScript Projeto~~
+- [ ] ~~13 Produção~~
+- [ ] ~~14 Considerações Finais~~
