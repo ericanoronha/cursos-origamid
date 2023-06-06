@@ -6,15 +6,37 @@
 .introducao {
     display: grid;
     gap: 0 40px;
+    box-sizing: border-box;
+    max-width: 1200px;
     grid-template-columns: 1fr 1fr;
+    padding: 0 20px;
+    margin: 0 auto;
 }
 
-.introducao p,
+.introducao-conteudo {
+    align-self: end;
+    padding-bottom: 80px;
+}
+
+.introducao h1 {
+    font-size: 64px;
+    line-height: 1.125;
+    margin-bottom: 32px;
+}
+
+.introducao h1:after {
+    content: ".";
+    color: #ffbb00;
+}
+
+.introducao p {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #b2b2b2;
+    margin-bottom: 20px;
+}
+
 .introducao a {
-    grid-column: 1;
-}
-
-.introducao img {
-    grid-column: 2;
-    grid-row: 1/3;
+    padding: 16px 32px;
+    background: blueviolet;
 }
