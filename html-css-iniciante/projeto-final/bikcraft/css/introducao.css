@@ -1,0 +1,20 @@
+.introducao-bg {
+    background: #000;
+    color: #fff;
+}
+
+.introducao {
+    display: grid;
+    gap: 0 40px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.introducao p,
+.introducao a {
+    grid-column: 1;
+}
+
+.introducao img {
+    grid-column: 2;
+    grid-row: 1/3;
+}
