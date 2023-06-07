@@ -25,10 +25,12 @@
 }
 
 .header-menu a {
-    color: white;
+    color: #fff;
     font-size: 18px;
     padding: 16px 16px;
     display: inline-block;
+    font-family: Poppins;
+    font-weight: 400;
 }
 
 .header-menu li {
