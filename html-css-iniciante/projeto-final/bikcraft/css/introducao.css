@@ -1,6 +1,7 @@
 .introducao-bg {
     background: #000;
     color: #fff;
+    box-shadow: inset 0 -120px #fff;
 }
 
 .introducao {
@@ -15,7 +16,7 @@
 
 .introducao-conteudo {
     align-self: end;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
 }
 
 .introducao h1 {
@@ -51,4 +52,10 @@
 
 .introducao a:hover {
     background: linear-gradient(#ffb60d, #e59317);
+}
+
+.introducao img {
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
 }
