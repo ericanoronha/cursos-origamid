@@ -1,3 +1,13 @@
-@import './global.css';
-@import './header.css';
-@import './introducao.css';
+/* Estilos utilitários */
+@import './utils/cores.css';
+@import './utils/tipografia.css';
+@import './utils/componentes.css';
+
+/* Estilos globais */
+@import './global/global.css';
+
+/* Estilos de cabeçalho e rodapé */
+@import './global/header.css';
+
+/* Estilos da página inicial */
+@import './home/introducao.css';

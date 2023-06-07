@@ -1,5 +1,5 @@
 .header-bg {
-    background: #000;
+    background: var(--cor-12);
 }
 
 .header {
@@ -25,7 +25,6 @@
 }
 
 .header-menu a {
-    color: #fff;
     font-size: 18px;
     padding: 16px 16px;
     display: inline-block;
@@ -44,7 +43,7 @@
     width: 0%;
     bottom: 5px;
     transition: 0.5s;
-    background: #fff;
+    background: var(--cor-0);
     position: absolute;
 }
 
@@ -58,13 +57,13 @@
     }
 
     .header-menu a {
-        background: #111;
+        background: var(--cor-11);
         padding: 12px 16px;
         border-radius: 4px;
     }
 
     .header-menu a:hover {
-        background: #2e2e2e;
+        background: var(--cor-10);
     }
 
     .header-menu li::after {
