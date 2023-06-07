@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: HTML e CSS para iniciantes
-- Aula atual: **1008 Tipografia**
+- Aula atual: **1009 Import CSS**
 
 ### Lista de módulos do curso
 - [x] 01 HTML e CSS para Iniciantes
