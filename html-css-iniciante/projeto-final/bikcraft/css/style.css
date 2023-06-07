@@ -11,3 +11,6 @@
 
 /* Estilos da página inicial */
 @import './home/introducao.css';
+
+/* Estilos da página de bicicletas */
+@import './bicicletas/bicicletas-lista.css';

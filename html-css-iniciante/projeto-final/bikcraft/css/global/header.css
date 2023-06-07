@@ -8,10 +8,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    box-sizing: border-box;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .header a img {
@@ -52,6 +48,11 @@
 }
 
 @media (max-width: 800px) {
+    .header {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
     .header-menu {
         gap: 20px;
     }
