@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: HTML e CSS para iniciantes
-- Aula atual: **1006 Box Shadow**
+- Aula atual: **1007 Introdução Responsiva**
 
 ### Lista de módulos do curso
 - [x] 01 HTML e CSS para Iniciantes
