@@ -5,6 +5,7 @@
 
 .bicicletas-lista h2 {
     margin-bottom: 40px;
+    text-transform: lowercase;
 }
 
 .bicicletas-lista h3 {
@@ -32,13 +33,18 @@
 }
 
 .bicicletas-lista ul {
+    padding: 20px 0px;
+    margin: 0 auto;
     display: flex;
     gap: 40px;
-    padding: 0 20px 20px 20px;
-    margin-left: auto;
-    margin-right: auto;
+    /* Se quiser ele quebrando */
+    /* flex-wrap: wrap; */
+    /* Se quiser ele com o scroll */
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+
     max-width: 1400px;
-    overflow-x: scroll;
+    padding: 20px;
 }
 
 .bicicletas-lista li {
@@ -56,6 +62,7 @@
 
 @media (max-width: 800px) {
     .bicicletas-lista {
+        padding-top: 60px;
         padding-bottom: 60px;
     }
 

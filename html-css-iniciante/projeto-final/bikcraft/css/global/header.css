@@ -3,11 +3,14 @@
 }
 
 .header {
-    gap: 20px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 .header a img {
@@ -22,7 +25,7 @@
 
 .header-menu a {
     font-size: 18px;
-    padding: 16px 16px;
+    padding: 16px 12px;
     display: inline-block;
     font-family: Poppins;
     font-weight: 400;
@@ -50,7 +53,6 @@
 @media (max-width: 800px) {
     .header {
         padding-top: 1rem;
-        padding-bottom: 1rem;
     }
 
     .header-menu {
@@ -78,7 +80,7 @@
     }
 
     .header-menu a {
-        padding: 14px 12px;
+        padding: 12px 14px;
         font-size: 16px;
     }
 }
