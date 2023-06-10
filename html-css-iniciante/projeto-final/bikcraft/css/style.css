@@ -21,3 +21,6 @@
 
 /* Estilos da página de seguros */
 @import './seguros/seguros.css';
+
+/* Estilos da página de termos */
+@import './termos/termos.css';
