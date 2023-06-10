@@ -17,3 +17,6 @@
 
 /* Estilos da página de bicicletas */
 @import './bicicletas/bicicletas-lista.css';
+
+/* Estilos da página de seguros */
+@import './seguros/seguros.css';
