@@ -17,6 +17,7 @@
 @import './home/depoimento.css';
 
 /* Estilos da página de bicicletas */
+@import './bicicletas/bicicletas.css';
 @import './bicicletas/bicicletas-lista.css';
 
 /* Estilos da página de seguros */
