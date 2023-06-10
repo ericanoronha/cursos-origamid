@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: HTML e CSS para iniciantes
-- Aula atual: **1019 Termos**
+- Aula atual: **1020 Bicicletas**
 
 ### Lista de módulos do curso
 - [x] 01 HTML e CSS para Iniciantes
