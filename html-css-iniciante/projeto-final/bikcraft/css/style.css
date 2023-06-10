@@ -8,6 +8,7 @@
 
 /* Estilos de cabeçalho e rodapé */
 @import './global/header.css';
+@import './global/footer.css';
 
 /* Estilos da página inicial */
 @import './home/introducao.css';
