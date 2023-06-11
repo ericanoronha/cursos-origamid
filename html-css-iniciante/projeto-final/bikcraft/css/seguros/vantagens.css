@@ -21,7 +21,7 @@
     display: grid;
     gap: 40px 80px;
     align-items: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
 }
 
 @media (max-width: 800px) {
@@ -32,16 +32,5 @@
 
     .vantagens h2 {
         margin-bottom: 40px;
-    }
-
-    .vantagens ul {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-
-    .vantagens ul {
-        grid-template-columns: 1fr;
     }
 }
