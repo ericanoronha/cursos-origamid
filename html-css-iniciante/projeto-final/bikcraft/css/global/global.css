@@ -9,6 +9,7 @@ h1,
 h2,
 h3,
 h4,
+fieldset,
 blockquote,
 dd,
 ul,
@@ -25,6 +26,16 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+fieldset {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    border: none;
 }
 
 img {
