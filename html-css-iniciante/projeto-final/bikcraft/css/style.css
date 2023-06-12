@@ -2,6 +2,7 @@
 @import './utils/cores.css';
 @import './utils/tipografia.css';
 @import './utils/componentes.css';
+@import './utils/formulario.css';
 
 /* Estilos globais */
 @import './global/global.css';
@@ -29,3 +30,7 @@
 
 /* Estilos da página de termos */
 @import './termos/termos.css';
+
+/* Estilos da página de contato */
+@import './contato/contato.css';
+@import './contato/lojas.css';
