@@ -69,24 +69,27 @@
                 </div>
             </section>
             <section class="contato-formulario" aria-label="Formulário">
-                <form class="form" action="./contato.html">
-                    <fieldset>
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="nome" placeholder="Nome">
+                <form action="./contato.html">
+                    <fieldset class="form">
+                        <legend class="visually-hidden">Dados pessoais</legend>
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Nome">
+                        </div>
+                        <div>
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(021) 9999-9999">
+                        </div>
+                        <div class="col-2">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" placeholder="contato@email.com">
+                        </div>
+                        <div class="col-2">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
+                        </div>
+                        <button class="botao col-2">Enviar mensagem</button>
                     </fieldset>
-                    <fieldset>
-                        <label for="telefone">Telefone:</label>
-                        <input type="tel" id="telefone" name="telefone" placeholder="(021) 9999-9999">
-                    </fieldset>
-                    <fieldset class="col-2">
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email" placeholder="contato@email.com">
-                    </fieldset>
-                    <fieldset class="col-2">
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
-                    </fieldset>
-                    <button class="botao col-2">Enviar mensagem</button>
                 </form>
             </section>
         </div>
