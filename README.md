@@ -6,7 +6,7 @@
 
 ## CSS Flexbox
 ### Lista de módulos
-- [ ] 01 CSS Flexbox
+- [x] 01 CSS Flexbox
 - [ ] 02 Fundamentos do Flexbox
 - [ ] 03 FlexBlog
 - [ ] 04 Considerações Finais
