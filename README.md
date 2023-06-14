@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: CSS Flexbox
-- Aula atual: **0209 Flex Basis**
+- Aula atual: **0210 Flex Shrink**
 
 
 ## CSS Flexbox
