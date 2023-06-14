@@ -1,9 +1,21 @@
 # Cursos Origamid
 
-## Curso em andamento: HTML e CSS para iniciantes
-- Aula atual: **1030 Otimizações**
+## Curso em andamento: CSS Flexbox
+- Aula atual: **01 CSS Flexbox**
 
-### Lista de módulos do curso
+
+## CSS Flexbox
+### Lista de módulos
+- [ ] 01 CSS Flexbox
+- [ ] 02 Fundamentos do Flexbox
+- [ ] 03 FlexBlog
+- [ ] 04 Considerações Finais
+- [ ] 05 CSS Flexbox - Conclusão
+
+
+
+## HTML e CSS para iniciantes
+### Lista de módulos
 - [x] 01 HTML e CSS para Iniciantes
 - [x] 02 HTML e CSS Básico
 - [x] 03 CSS Posicionamento
@@ -13,7 +25,7 @@
 - [x] 07 Projeto Portfólio
 - [x] 08 Ferramentas
 - [x] 09 Mais HTML e CSS
-- [ ] 10 Projeto Final
+- [x] 10 Projeto Final
 - [ ] ~~11 JavaScript Básico~~
 - [ ] ~~12 JavaScript Projeto~~
 - [ ] ~~13 Produção~~
