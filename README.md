@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: CSS Flexbox
-- Aula atual: **0206 Align Items**
+- Aula atual: **0207 Align Content**
 
 
 ## CSS Flexbox
