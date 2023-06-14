@@ -10,7 +10,7 @@
 - [ ] 02 Fundamentos do Flexbox
 - [ ] 03 FlexBlog
 - [ ] 04 Considerações Finais
-- [ ] 05 CSS Flexbox - Conclusão
+- [ ] 05 Conclusão
 
 
 
