@@ -32,3 +32,23 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Superinfo */
+.superinfo-bg {
+    background: #122ab2;
+    color: #fff;
+}
+
+.superinfo {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.superinfo a {
+    color: inherit;
+}
