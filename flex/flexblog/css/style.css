@@ -14,7 +14,6 @@ a {
 }
 
 body {
-    background: yellowgreen;
     font-family: Nunito, Helvetica, Arial, sans-serif;
     color: #222;
 }
@@ -24,6 +23,7 @@ ul {
 }
 
 a {
+    color: inherit;
     text-decoration: none;
 }
 
@@ -49,6 +49,38 @@ img {
     justify-content: space-between;
 }
 
-.superinfo a {
-    color: inherit;
+/* Menu */
+.menu-bg {
+    background: #2c70ff;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-logo {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    line-height: 2;
+}
+
+.menu-nav a:hover {
+    color: #122ab2
 }
