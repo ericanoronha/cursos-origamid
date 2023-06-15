@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: CSS Flexbox
-- Aula atual: **0301 Flexblog HTML**
+- Aula atual: **0302 Flexblog HTML**
 
 
 ## CSS Flexbox
