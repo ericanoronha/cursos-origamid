@@ -1,7 +1,7 @@
 # Cursos Origamid
 
 ## Curso em andamento: CSS Flexbox
-- Aula atual: **0307 FlexBlog Produtos**
+- Aula atual: **0308 FlexBlog Preço**
 
 
 ## CSS Flexbox
