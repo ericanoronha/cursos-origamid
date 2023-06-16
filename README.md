@@ -1,13 +1,13 @@
 # Cursos Origamid
 
 ## Curso em andamento: CSS Flexbox
-- Aula atual: **0310 FlexBlog Footer**
+- Aula atual: **0401 Conclusão**
 
 ## CSS Flexbox
 ### Lista de módulos
 - [x] 01 CSS Flexbox
 - [x] 02 Fundamentos do Flexbox
-- [ ] 03 FlexBlog
+- [x] 03 FlexBlog
 - [ ] 04 Considerações Finais
 
 ## HTML e CSS para iniciantes
