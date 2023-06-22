@@ -1,19 +1,34 @@
 # Cursos Origamid
 
+## Curso em andamento: React Completo
+- Aula atual: **0101 React Completo**
+
+## React Completo
+### Lista de módulos
+- [ ] 01 React Completo
+- [ ] 02 React para iniciantes
+- [ ] 03 React Hooks
+- [ ] 04 Formulários
+- [ ] 05 CSS
+- [ ] 06 React Router
+- [ ] 07 Mais React
+- [ ] 08 Projeto final
+- [ ] 09 Considerações finais
+
 ## CSS Flexbox
 ### Lista de módulos
 - [x] 01 CSS Flexbox
 - [x] 02 Fundamentos do Flexbox
 - [x] 03 FlexBlog
-- [x] 04 Considerações Finais
+- [x] 04 Considerações finais
 
 ## HTML e CSS para iniciantes
 ### Lista de módulos
-- [x] 01 HTML e CSS para Iniciantes
-- [x] 02 HTML e CSS Básico
-- [x] 03 CSS Posicionamento
-- [x] 04 HTML e Semântica
-- [x] 05 CSS Propriedades
+- [x] 01 HTML e CSS para iniciantes
+- [x] 02 HTML e CSS básico
+- [x] 03 CSS: posicionamento
+- [x] 04 HTML e semântica
+- [x] 05 CSS: propriedades
 - [x] 06 Responsivo
 - [x] 07 Projeto Portfólio
 - [x] 08 Ferramentas
