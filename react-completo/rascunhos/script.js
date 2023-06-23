@@ -24,7 +24,7 @@ const precos = [
 ];
 
 const precosFiltro = precos.filter((preco) => preco.includes('R$'));
-const precoNumeros = precosFiltro.map((preco) => preco.substring(3));
+const precoNumeros = precosFiltro.map((preco) => Number(preco.substring(3)));
 console.log('precosFiltro :', precosFiltro, 'precosNumeros: ', precoNumeros);
 
 const nome = prompt('Digite seu primeiro nome');
