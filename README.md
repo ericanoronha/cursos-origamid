@@ -2,13 +2,13 @@
 
 ## Curso em andamento: React Completo
 
-- Aula atual: **0103 Javascript**
+- Aula atual: **0201 Adicionar React**
 
 ## React Completo
 
 ### Lista de módulos
 
-- [ ] 01 React Completo
+- [x] 01 React Completo
 - [ ] 02 React para iniciantes
 - [ ] 03 React Hooks
 - [ ] 04 Formulários
