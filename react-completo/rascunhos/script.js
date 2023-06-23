@@ -8,3 +8,8 @@ const grupoB = 200;
 // }
 const vencedor = grupoA > grupoB ? 'Grupo A venceu' : 'Grupo B venceu';
 console.log(vencedor);
+
+const active = false;
+//const button = active && 'Botão está ativo';
+const button = active ? 'Botão está ativo' : '';
+console.log(button);
