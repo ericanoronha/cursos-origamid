@@ -2,7 +2,7 @@
 
 ## Curso em andamento: React Completo
 
-- Aula atual: **0201 Adicionar React**
+- Aula atual: **0202 React Básico**
 
 ## React Completo
 
