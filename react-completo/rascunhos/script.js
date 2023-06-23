@@ -14,10 +14,7 @@ console.log(upperName('Erica'));
 
 console.log(lowerName('Erica'));
 
-function handleMouse(event) {
-  //   const x = event.clientX;
-  //   const y = event.clientY;
-  const { clientX, clientY } = event;
+function handleMouse({ clientX, clientY }) {
   console.log(clientX, clientY);
 }
 
