@@ -17,16 +17,27 @@
 
 <body>
     <div id="root">App</div>
+
     <!-- Precisa indicar para o Babel que ele deve transpilar o código -->
     <script type="text/babel">
-        // Cria um componente chamado App
-        // O componente retorna JSX e por isso
-        // o Babel irá transformar o mesmo
+        function Button() {
+            const [total, setTotal] = React.useState(0)
+            return <button onClick={
+                () => { setTotal(total + 1) }
+            }
+            >{total}</button>
+        }
         function App() {
-            return <div>Meu App</div>;
+            return <div>
+                <h1 style={{
+                    display: 'inline-block',
+                    verticalAlign: 'sub',
+                    marginRight: '10px'
+                }}>click here</h1>
+                <Button />
+            </div >;
         }
 
-        // Renderiza o componente App no elemento que tiver id = app
         const container = document.getElementById('root')
         const root = ReactDOM.createRoot(container)
         root.render(<App />)
