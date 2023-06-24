@@ -20,21 +20,58 @@
 
     <!-- Precisa indicar para o Babel que ele deve transpilar o código -->
     <script type="text/babel">
-        function Button() {
-            const [total, setTotal] = React.useState(0)
-            return <button onClick={
-                () => { setTotal(total + 1) }
-            }
-            >{total}</button>
+        const Button = (props) => {
+            return <button>Comprar</button>
         }
-        function App() {
+
+        const Produtos = () => {
+            const produto1 = 'Camisa'
+            const produto2 = 'Bermuda'
+
+            function handleClick(e) {
+                return console.log(e.target.innerText, 'adicionado ao carrinho!')
+            }
+
             return <div>
+                <button style={{
+                    marginRight: '10px'
+                }} onClick={handleClick}>{produto1} - R$ {Math.ceil(Math.random() * 100)}</button>
+                <button onClick={handleClick}>{produto2} - R$ {Math.ceil(Math.random() * 100)}</button>
+            </div>
+        }
+
+        const MainNav = () => {
+            return (
+                <nav>
+                    <ul>
+                        <li style={{
+                            display: 'inline-block',
+                            verticalAlign: 'sub',
+                            marginRight: '10px'
+                        }}>
+                            <a href="#" >Link 1</a>
+                        </li>
+                        <li style={{
+                            display: 'inline-block',
+                            verticalAlign: 'sub',
+                            marginRight: '10px'
+                        }}>
+                            <a href="#" >Link 2</a>
+                        </li>
+                    </ul>
+                </nav>
+            )
+        }
+        const App = () => {
+            return <div>
+                <MainNav />
                 <h1 style={{
                     display: 'inline-block',
                     verticalAlign: 'sub',
                     marginRight: '10px'
                 }}>click here</h1>
                 <Button />
+                <Produtos />
             </div >;
         }
 
