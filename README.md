@@ -2,7 +2,7 @@
 
 ## Curso em andamento: React Completo
 
-- Aula atual: **0204 Ferramentas de automação**
+- Aula atual: **0205 Ferramentas Front End**
 
 ## React Completo
 
