@@ -2,7 +2,7 @@
 
 ## Curso em andamento: React Completo
 
-- Aula atual: **0205 Ferramentas Front End**
+- Aula atual: **0206 Ambiente Curso**
 
 ## React Completo
 
