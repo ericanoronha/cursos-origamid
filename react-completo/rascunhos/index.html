@@ -40,6 +40,19 @@
             </div>
         }
 
+        const Compras = () => {
+            // useState é um hook que define uma variável reativa
+            const [count, setCount] = React.useState(0)
+
+            return (
+                <div>
+                    <button onClick={() => setCount(count + 1)}> Comprar: {count}</button>
+                    <p>Total: {count}</p>
+                    <p>Preço: R$ {count * 250}</p>
+                </div>
+            )
+        }
+
         const MainNav = () => {
             return (
                 <nav>
@@ -72,6 +85,7 @@
                 }}>click here</h1>
                 <Button />
                 <Produtos />
+                <Compras />
             </div >;
         }
 
