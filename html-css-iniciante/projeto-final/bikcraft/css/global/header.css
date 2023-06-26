@@ -35,7 +35,7 @@
     position: relative;
 }
 
-.header-menu li::after {
+.header-menu a::after {
     content: '';
     display: block;
     height: 2px;
@@ -46,8 +46,9 @@
     position: absolute;
 }
 
-.header-menu li:hover:after {
-    width: 100%;
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
+    width: 77%;
 }
 
 @media (max-width: 800px) {
@@ -69,7 +70,7 @@
         background: var(--cor-10);
     }
 
-    .header-menu li::after {
+    .header-menu a::after {
         display: none;
     }
 }
