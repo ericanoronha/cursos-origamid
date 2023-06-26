@@ -2,7 +2,7 @@
 
 ## Curso em andamento: React Completo
 
-- Aula atual: **0206 Ambiente Curso**
+- Aula atual: **0207 JSX**
 
 ## React Completo
 
