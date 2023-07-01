@@ -22,3 +22,27 @@ function ativarProduto(parametro) {
   }
 }
 parametros.forEach(ativarProduto);
+
+// ativar accordion de perguntas frequentes
+const perguntas = document.querySelectorAll('.perguntas button');
+
+function ativaPergunta(event) {
+  const pergunta = event.currentTarget;
+
+  const controls = pergunta.getAttribute('aria-controls');
+  const resposta = document.getElementById(controls);
+  resposta.classList.toggle('ativa');
+
+  //pergunta.setAttribute('aria-expanded', true);
+  if (resposta.classList.contains('ativa')) {
+    pergunta.setAttribute('aria-expanded', true);
+  } else {
+    pergunta.setAttribute('aria-expanded', false);
+  }
+}
+
+function eventosPerguntas(pergunta) {
+  pergunta.addEventListener('click', ativaPergunta);
+}
+perguntas.forEach(eventosPerguntas);
+console.log(perguntas);
