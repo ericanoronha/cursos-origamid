@@ -3,6 +3,7 @@
 @import './utils/tipografia.css';
 @import './utils/componentes.css';
 @import './utils/formulario.css';
+@import './utils/animacao.css';
 
 /* Estilos globais */
 @import './global/global.css';

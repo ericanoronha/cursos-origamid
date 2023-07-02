@@ -1,3 +1,8 @@
+// ativa plug-in de animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
+
 // ativar links do menu
 const links = document.querySelectorAll('.header-menu a');
 
