@@ -44,4 +44,4 @@
 - [x] ~~11 JavaScript Básico~~
 - [x] ~~12 JavaScript Projeto~~
 - [x] ~~13 Produção~~
-- [ ] ~~14 Considerações Finais~~
+- [x] ~~14 Considerações Finais~~
