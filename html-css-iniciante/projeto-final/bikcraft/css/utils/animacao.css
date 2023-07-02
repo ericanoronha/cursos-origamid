@@ -28,14 +28,12 @@
     .fadeInDown,
     .fadeInUp,
     .fadeInRight,
-    .fadeInLeft {
-        transform: none;
-    }
-    
+    .fadeInLeft,
     .anime {
+        transform: none;
         transition: none;
     }
-    
+
     [data-anime] {
         opacity: 1;
     }
