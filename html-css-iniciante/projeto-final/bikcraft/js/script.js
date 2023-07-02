@@ -49,7 +49,7 @@ function eventosPerguntas(pergunta) {
   pergunta.addEventListener('click', ativaPergunta);
 }
 perguntas.forEach(eventosPerguntas);
-console.log(perguntas);
+//console.log(perguntas);
 
 // ativar galeria de bicicletas
 const galeria = document.querySelectorAll('.bicicleta-imagens img');
