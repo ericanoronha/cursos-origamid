@@ -1,5 +1,5 @@
 import React from 'react';
-const Header = () => {
+const Header = (props) => {
   return (
     <header
       style={{
@@ -8,7 +8,7 @@ const Header = () => {
         padding: '0.25rem',
       }}
     >
-      Header
+      {props.children}
     </header>
   );
 };

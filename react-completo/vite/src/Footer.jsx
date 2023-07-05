@@ -1,10 +1,10 @@
 import React from 'react';
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer
       style={{ background: 'gray', textAlign: 'center', padding: '0.25rem' }}
     >
-      Footer
+      {props.children}
     </footer>
   );
 };

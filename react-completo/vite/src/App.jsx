@@ -10,11 +10,11 @@ const Titulo = (props) => {
 const App = () => {
   return (
     <React.Fragment>
-      <Header />
+      <Header>Cabeçalho</Header>
       <Titulo cor="var(--color-dark)" texto="Cadastro" />
       <p>Preencha os campos:</p>
       <Form />
-      <Footer />
+      <Footer>Rodapé</Footer>
     </React.Fragment>
   );
 };
