@@ -8,7 +8,19 @@ const App = () => {
       ? (event.target.innerHTML = 'Clicou de novo')
       : (event.target.innerHTML = 'Clicou');
   }
-  return <button onClick={handleClick}>Clique</button>;
+  function handleScroll(e) {
+    console.log(e);
+  }
+  window.addEventListener('scroll', handleScroll);
+  return (
+    <div
+      style={{
+        height: '800px',
+      }}
+    >
+      <button onClick={handleClick}>Clique</button>
+    </div>
+  );
 };
 
 export default App;
