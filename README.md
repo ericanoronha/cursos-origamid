@@ -2,7 +2,7 @@
 
 ## Curso em andamento: React Completo
 
-- Aula atual: **0210 Componentes**
+- Aula atual: **0211 Propriedades**
 
 ## React Completo
 
