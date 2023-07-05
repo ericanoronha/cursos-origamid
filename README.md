@@ -41,7 +41,7 @@
 - [x] 08 Ferramentas
 - [x] 09 Mais HTML e CSS
 - [x] 10 Projeto Final
-- [ ] ~~11 JavaScript Básico~~
-- [ ] ~~12 JavaScript Projeto~~
-- [ ] ~~13 Produção~~
-- [ ] ~~14 Considerações Finais~~
+- [x] ~~11 JavaScript Básico~~
+- [x] ~~12 JavaScript Projeto~~
+- [x] ~~13 Produção~~
+- [x] ~~14 Considerações Finais~~
