@@ -2,7 +2,7 @@
 
 ## Curso em andamento: React Completo
 
-- Aula atual: **0209 Eventos**
+- Aula atual: **0210 Componentes**
 
 ## React Completo
 
