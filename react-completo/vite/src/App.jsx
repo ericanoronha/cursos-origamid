@@ -1,25 +1,16 @@
 import React from 'react';
-const App = () => {
-  function handleClick(event) {
-    console.log(event.target);
-    console.log(event.target.innerHTML);
+import Header from './Header';
+import Footer from './Footer';
+import Form from './Form/Form';
 
-    event.target.innerHTML === 'Clicou'
-      ? (event.target.innerHTML = 'Clicou de novo')
-      : (event.target.innerHTML = 'Clicou');
-  }
-  function handleScroll(e) {
-    console.log(e);
-  }
-  window.addEventListener('scroll', handleScroll);
+const App = () => {
   return (
-    <div
-      style={{
-        height: '800px',
-      }}
-    >
-      <button onClick={handleClick}>Clique</button>
-    </div>
+    <>
+      <Header />
+      <p>Olá!</p>
+      <Form />
+      <Footer />
+    </>
   );
 };
 
