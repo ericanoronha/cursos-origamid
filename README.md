@@ -2,7 +2,7 @@
 
 ## Curso em andamento: React Completo
 
-- Aula atual: **0208 Arrays**
+- Aula atual: **0209 Eventos**
 
 ## React Completo
 
