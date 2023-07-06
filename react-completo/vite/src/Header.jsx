@@ -21,7 +21,8 @@ const Header = () => {
         padding: '0.25rem',
       }}
     >
-      <button
+      Cabeçalho
+      {/* <button
         onClick={() => {
           setContar(contar + 1);
         }}
@@ -33,7 +34,7 @@ const Header = () => {
           <h1>{dados.nome}</h1>
           <p>R$ {dados.preco * contar}</p>
         </div>
-      )}
+      )} */}
     </header>
   );
 };
