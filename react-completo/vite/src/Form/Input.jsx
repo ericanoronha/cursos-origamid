@@ -8,7 +8,6 @@ const Input = ({
   ...props
 }) => {
   const labelCapitalized = label.charAt(0).toUpperCase() + label.slice(1);
-  console.log(label, ativo);
 
   return (
     <p>
