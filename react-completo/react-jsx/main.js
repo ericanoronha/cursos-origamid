@@ -23526,7 +23526,7 @@
 
   // src/components/Menu/Menu.jsx
   var Menu = () => {
-    return /* @__PURE__ */ import_react2.default.createElement("nav", null, /* @__PURE__ */ import_react2.default.createElement("ul", null, /* @__PURE__ */ import_react2.default.createElement(MenuItem_default, { url: "/", texto: "P\xE1gina inicial" }), /* @__PURE__ */ import_react2.default.createElement(MenuItem_default, { url: "/produtos", texto: "Produtos" })));
+    return /* @__PURE__ */ import_react2.default.createElement("nav", null, /* @__PURE__ */ import_react2.default.createElement("ul", null, /* @__PURE__ */ import_react2.default.createElement(MenuItem_default, { url: "/", texto: "P\xE1gina inicial" }), /* @__PURE__ */ import_react2.default.createElement(MenuItem_default, { url: "/produtos.html", texto: "Produtos" })));
   };
   var Menu_default = Menu;
 
@@ -23548,42 +23548,30 @@
 
   // src/Produtos.jsx
   var import_react5 = __toESM(require_react());
-  var Produto = (props) => {
-    const listaPropriedades = new Array();
-    props.listagem.map((item) => listaPropriedades.push(item));
-    return /* @__PURE__ */ import_react5.default.createElement("div", { ...props }, /* @__PURE__ */ import_react5.default.createElement("p", null, props.nome), /* @__PURE__ */ import_react5.default.createElement(Lista, { "aria-label": "Listagem de produtos", total: listaPropriedades }));
+  var Produto = ({ dados }) => {
+    return /* @__PURE__ */ import_react5.default.createElement("div", { className: "produto" }, /* @__PURE__ */ import_react5.default.createElement("h1", null, dados.nome), /* @__PURE__ */ import_react5.default.createElement("p", null, "R$ ", dados.preco), /* @__PURE__ */ import_react5.default.createElement("img", { src: dados.fotos[0].src, alt: dados.fotos[0].titulo }));
   };
-  var Lista = (props) => {
-    const total = props.total;
-    return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, /* @__PURE__ */ import_react5.default.createElement("ul", { ...props }, total.map((i) => /* @__PURE__ */ import_react5.default.createElement(Item, { key: i }, i))));
-  };
-  var Item = (props) => {
-    return /* @__PURE__ */ import_react5.default.createElement("li", { key: props.id }, props.children);
-  };
-  var Produtos = ({ ...props }) => {
-    const produtos = props.lista;
-    return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, /* @__PURE__ */ import_react5.default.createElement(Titulo_default, { texto: "Produtos" }), produtos.map((item) => /* @__PURE__ */ import_react5.default.createElement(
-      Produto,
-      {
-        className: "produto",
-        key: item.nome,
-        "data-key": item.nome,
-        nome: item.nome,
-        listagem: item.propriedades
-      }
-    )));
+  var Produtos = () => {
+    const [dados, setDados] = import_react5.default.useState(null);
+    const [carregando, setCarregando] = import_react5.default.useState(null);
+    async function handleClick(event) {
+      setCarregando(true);
+      const response = await fetch(
+        `https://ranekapi.origamid.dev/json/api/produto/${event.target.innerText}`
+      );
+      const json = await response.json();
+      setDados(json);
+      setCarregando(false);
+    }
+    return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, /* @__PURE__ */ import_react5.default.createElement(Titulo_default, { texto: "Produtos" }), /* @__PURE__ */ import_react5.default.createElement("div", { className: "container" }, /* @__PURE__ */ import_react5.default.createElement("button", { onClick: handleClick }, "smartphone"), /* @__PURE__ */ import_react5.default.createElement("button", { onClick: handleClick }, "tablet"), /* @__PURE__ */ import_react5.default.createElement("button", { onClick: handleClick }, "notebook")), carregando && /* @__PURE__ */ import_react5.default.createElement("p", null, "Carregando..."), !carregando && dados && /* @__PURE__ */ import_react5.default.createElement(Produto, { dados }));
   };
   var Produtos_default = Produtos;
 
   // src/App.jsx
   var App = () => {
-    const produtos = [
-      { nome: "Notebook", propriedades: ["16gb ram", "512gb"] },
-      { nome: "Smartphone", propriedades: ["2gb ram", "128gb"] }
-    ];
     const { pathname } = window.location;
-    if (pathname === "/produtos") {
-      return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement(Menu_default, null), /* @__PURE__ */ import_react6.default.createElement(Produtos_default, { lista: produtos }));
+    if (pathname === "/produtos.html") {
+      return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement(Menu_default, null), /* @__PURE__ */ import_react6.default.createElement(Produtos_default, null));
     } else {
       return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement(Menu_default, null), /* @__PURE__ */ import_react6.default.createElement(Home_default, null));
     }

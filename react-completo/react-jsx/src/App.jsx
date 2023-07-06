@@ -3,24 +3,22 @@ import Menu from './components/Menu/Menu';
 import Home from './Home';
 import Produtos from './Produtos';
 
-// Replique a interface como a apresentada na aula
-// Utilize a array abaixo para mostrar os produtos
-// Quebre em componentes o que precisar ser reutilizado
-// Dica: const { pathname } = window.location; (puxa o caminho do URL)
-// <Produtos lista={produtos} />
+// Os links abaixo puxam dados de um produto em formato JSON
+// https://ranekapi.origamid.dev/json/api/produto/tablet
+// https://ranekapi.origamid.dev/json/api/produto/smartphone
+// https://ranekapi.origamid.dev/json/api/produto/notebook
+// Crie uma interface com 3 botões, um para cada produto.
+// Ao clicar no botão faça um fetch a api e mostre os dados do produto na tela.
+// Mostre apenas um produto por vez
+// Mostre a mensagem carregando... enquanto o fetch é realizado
 
 const App = () => {
-  const produtos = [
-    { nome: 'Notebook', propriedades: ['16gb ram', '512gb'] },
-    { nome: 'Smartphone', propriedades: ['2gb ram', '128gb'] },
-  ];
   const { pathname } = window.location;
-  console.log(pathname);
   if (pathname === '/produtos.html') {
     return (
       <>
         <Menu />
-        <Produtos lista={produtos} />
+        <Produtos />
       </>
     );
   } else {
