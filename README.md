@@ -2,14 +2,14 @@
 
 ## Curso em andamento: React Completo
 
-- Aula atual: **0212 Desafio**
+- Aula atual: **0301 useState**
 
 ## React Completo
 
 ### Lista de módulos
 
 - [x] 01 React Completo
-- [ ] 02 React para iniciantes
+- [x] 02 React para iniciantes
 - [ ] 03 React Hooks
 - [ ] 04 Formulários
 - [ ] 05 CSS
