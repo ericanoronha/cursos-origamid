@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Modal = ({ modal, setModal, ...props }) => {
+  function handleCloseButton() {
+    //usando callback
+    setModal((estadoAnterior) => !estadoAnterior);
+  }
   if (modal === true) {
     return (
       <dialog id="dialog" open={modal}>
@@ -8,7 +12,8 @@ const Modal = ({ modal, setModal, ...props }) => {
           className="trigger"
           aria-controls="dialog"
           aria-label="Fechar modal"
-          onClick={() => setModal(false)}
+          //onClick={() => setModal(false)}
+          onClick={handleCloseButton}
           {...props}
         >
           ⤬
@@ -26,7 +31,7 @@ const Modal = ({ modal, setModal, ...props }) => {
           Adipisci error reprehenderit beatae nemo. Cupiditate, obcaecati!
           Consectetur, adipisicing elit. Doloribus, sed libero, voluptatum
           cupiditate, asperiores enim consectetur a odio autem ipsum ex? Libero,
-          aspernatur!{' '}
+          aspernatur!
         </p>
       </dialog>
     );

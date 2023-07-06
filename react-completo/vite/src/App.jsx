@@ -25,7 +25,7 @@ const App = () => {
         <h2>Preencha os campos a seguir:</h2>
       </Titulo>
       <Form />
-      <Footer>Rodapé</Footer>
+      <Footer />
     </React.Fragment>
   );
 };

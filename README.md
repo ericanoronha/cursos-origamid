@@ -2,7 +2,7 @@
 
 ## Curso em andamento: React Completo
 
-- Aula atual: **0301 useState**
+- Aula atual: **0302 useEffect**
 
 ## React Completo
 
