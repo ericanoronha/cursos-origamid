@@ -1,5 +1,5 @@
 import React from 'react';
-const Header = () => {
+const Header = (props) => {
   const [contar, setContar] = React.useState(0);
   const [dados, setDados] = React.useState(null);
 
@@ -19,22 +19,26 @@ const Header = () => {
         background: 'lightgray',
         textAlign: 'center',
         padding: '0.25rem',
+        marginBottom: '1rem',
       }}
     >
-      Cabeçalho
-      {/* <button
-        onClick={() => {
-          setContar(contar + 1);
-        }}
-      >
-        {contar}
-      </button>
-      {dados && (
-        <div>
-          <h1>{dados.nome}</h1>
-          <p>R$ {dados.preco * contar}</p>
-        </div>
-      )} */}
+      {props.addBotao && (
+        <>
+          <button
+            onClick={() => {
+              setContar(contar + 1);
+            }}
+          >
+            {contar}
+          </button>
+          {dados && (
+            <div>
+              <h1>{dados.nome}</h1>
+              <p>R$ {dados.preco * contar}</p>
+            </div>
+          )}
+        </>
+      )}
     </header>
   );
 };

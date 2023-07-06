@@ -4,7 +4,7 @@ import Footer from './Footer';
 import Form from './Form/Form';
 import Trigger from './Modal/Trigger';
 import Modal from './Modal/Modal';
-import BotaoMagico from './BotaoMagico';
+import ButtonToggleForm from './Form/ButtonToggleForm';
 
 const Titulo = (props) => {
   return (
@@ -20,13 +20,15 @@ const App = () => {
   const [ativo, setAtivo] = React.useState(false);
   return (
     <React.Fragment>
-      <Header>Cabeçalho</Header>
+      <Header addBotao={false} />
       <Modal modal={modal} setModal={setModal} />
       <Trigger setModal={setModal} />
       <Titulo cor="var(--color-dark)" texto="Cadastro"></Titulo>
-      <BotaoMagico onClick={() => setAtivo(!ativo)}>Abrir</BotaoMagico>
+      <ButtonToggleForm onClick={() => setAtivo(!ativo)}>
+        Clique aqui para acessar o formulário
+      </ButtonToggleForm>
       {ativo && <Form />}
-      <Footer />
+      <Footer addBotao={false} />
     </React.Fragment>
   );
 };

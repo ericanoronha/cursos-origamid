@@ -15,15 +15,19 @@ const Footer = (props) => {
     <footer
       style={{ background: 'gray', textAlign: 'center', padding: '0.25rem' }}
     >
-      <div>
-        {items.map((item, i) => (
-          <li key={i}>{item}</li>
-        ))}
-        <button style={{ marginRight: '2rem' }} onClick={handleClick}>
-          Adicionar Item
-        </button>
-        <button onClick={handleClickReativo}>Adicionar Reativo</button>
-      </div>
+      {props.addBotao && (
+        <>
+          <div>
+            {items.map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
+            <button style={{ marginRight: '2rem' }} onClick={handleClick}>
+              Adicionar Item
+            </button>
+            <button onClick={handleClickReativo}>Adicionar Reativo</button>
+          </div>
+        </>
+      )}
     </footer>
   );
 };

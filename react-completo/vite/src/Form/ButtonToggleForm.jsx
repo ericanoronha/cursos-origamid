@@ -1,11 +1,11 @@
 import React from 'react';
 
-const BotaoMagico = (props) => {
+const ButtonToggleForm = (props) => {
   return (
     <button style={{ marginBottom: '2rem' }} {...props}>
-      BotaoMagico
+      {props.children}
     </button>
   );
 };
 
-export default BotaoMagico;
+export default ButtonToggleForm;
