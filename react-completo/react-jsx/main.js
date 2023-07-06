@@ -2382,9 +2382,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React3 = require_react();
+          var React8 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React3.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React8.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -3989,7 +3989,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React3.Children.forEach(props.children, function(child) {
+                  React8.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -12436,7 +12436,7 @@
             }
           }
           var fakeInternalInstance = {};
-          var emptyRefsObject = new React3.Component().refs;
+          var emptyRefsObject = new React8.Component().refs;
           var didWarnAboutStateAssignmentForComponent;
           var didWarnAboutUninitializedState;
           var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -23509,17 +23509,89 @@
 
   // src/main.jsx
   var import_client = __toESM(require_client());
+  var import_react7 = __toESM(require_react());
+
+  // src/App.jsx
+  var import_react6 = __toESM(require_react());
+
+  // src/components/Menu/Menu.jsx
   var import_react2 = __toESM(require_react());
 
-  // src/app.jsx
+  // src/components/Menu/MenuItem.jsx
   var import_react = __toESM(require_react());
-  var App = () => {
-    return /* @__PURE__ */ import_react.default.createElement("a", { href: "https://www.origamid.com" }, "Origamid");
+  var MenuItem = (props) => {
+    return /* @__PURE__ */ import_react.default.createElement("li", null, /* @__PURE__ */ import_react.default.createElement("a", { href: props.url }, props.texto));
   };
-  var app_default = App;
+  var MenuItem_default = MenuItem;
+
+  // src/components/Menu/Menu.jsx
+  var Menu = () => {
+    return /* @__PURE__ */ import_react2.default.createElement("nav", null, /* @__PURE__ */ import_react2.default.createElement("ul", null, /* @__PURE__ */ import_react2.default.createElement(MenuItem_default, { url: "/", texto: "P\xE1gina inicial" }), /* @__PURE__ */ import_react2.default.createElement(MenuItem_default, { url: "/produtos", texto: "Produtos" })));
+  };
+  var Menu_default = Menu;
+
+  // src/Home.jsx
+  var import_react4 = __toESM(require_react());
+
+  // src/components/Titulo.jsx
+  var import_react3 = __toESM(require_react());
+  var Titulo = ({ texto }) => {
+    return /* @__PURE__ */ import_react3.default.createElement("h1", { style: { color: "var(--color-dark)" } }, texto);
+  };
+  var Titulo_default = Titulo;
+
+  // src/Home.jsx
+  var Home = () => {
+    return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(Titulo_default, { texto: "P\xE1gina inicial" }), /* @__PURE__ */ import_react4.default.createElement("p", null, "Esta \xE9 a p\xE1gina inicial"));
+  };
+  var Home_default = Home;
+
+  // src/Produtos.jsx
+  var import_react5 = __toESM(require_react());
+  var Produto = (props) => {
+    const listaPropriedades = new Array();
+    props.listagem.map((item) => listaPropriedades.push(item));
+    return /* @__PURE__ */ import_react5.default.createElement("div", { ...props }, /* @__PURE__ */ import_react5.default.createElement("p", null, props.nome), /* @__PURE__ */ import_react5.default.createElement(Lista, { "aria-label": "Listagem de produtos", total: listaPropriedades }));
+  };
+  var Lista = (props) => {
+    const total = props.total;
+    return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, /* @__PURE__ */ import_react5.default.createElement("ul", { ...props }, total.map((i) => /* @__PURE__ */ import_react5.default.createElement(Item, { key: i }, i))));
+  };
+  var Item = (props) => {
+    return /* @__PURE__ */ import_react5.default.createElement("li", { key: props.id }, props.children);
+  };
+  var Produtos = ({ ...props }) => {
+    const produtos = props.lista;
+    return /* @__PURE__ */ import_react5.default.createElement(import_react5.default.Fragment, null, /* @__PURE__ */ import_react5.default.createElement(Titulo_default, { texto: "Produtos" }), produtos.map((item) => /* @__PURE__ */ import_react5.default.createElement(
+      Produto,
+      {
+        className: "produto",
+        key: item.nome,
+        "data-key": item.nome,
+        nome: item.nome,
+        listagem: item.propriedades
+      }
+    )));
+  };
+  var Produtos_default = Produtos;
+
+  // src/App.jsx
+  var App = () => {
+    const produtos = [
+      { nome: "Notebook", propriedades: ["16gb ram", "512gb"] },
+      { nome: "Smartphone", propriedades: ["2gb ram", "128gb"] }
+    ];
+    const { pathname } = window.location;
+    if (pathname === "/produtos") {
+      return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement(Menu_default, null), /* @__PURE__ */ import_react6.default.createElement(Produtos_default, { lista: produtos }));
+    } else {
+      return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement(Menu_default, null), /* @__PURE__ */ import_react6.default.createElement(Home_default, null));
+    }
+  };
+  var App_default = App;
 
   // src/main.jsx
-  import_client.default.createRoot(document.getElementById("root")).render(/* @__PURE__ */ import_react2.default.createElement(app_default, null));
+  import_client.default.createRoot(document.getElementById("root")).render(/* @__PURE__ */ import_react7.default.createElement(App_default, null));
 })();
 /*! Bundled license information:
 
