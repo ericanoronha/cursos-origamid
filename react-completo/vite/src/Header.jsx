@@ -1,5 +1,12 @@
 import React from 'react';
-const Header = (props) => {
+const Header = () => {
+  const [contar, setContar] = React.useState(0);
+  React.useEffect(() => {
+    console.log('Clicou');
+  }, []);
+  React.useEffect(() => {
+    document.title = 'Clicou ' + contar + ' vezes';
+  }, [contar]);
   return (
     <header
       style={{
@@ -8,7 +15,13 @@ const Header = (props) => {
         padding: '0.25rem',
       }}
     >
-      {props.children}
+      <button
+        onClick={() => {
+          setContar(contar + 1);
+        }}
+      >
+        {contar}
+      </button>
     </header>
   );
 };
