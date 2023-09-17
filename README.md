@@ -1,22 +1,24 @@
 # Cursos Origamid
 
-## Curso em andamento: React Completo
+## Curso em andamento: JavaScript Completo ES6
 
-- Aula atual: **0206 Ambiente Curso**
-
-## React Completo
+## JavaScript Completo ES6
 
 ### Lista de módulos
 
-- [x] 01 React Completo
-- [ ] 02 React para iniciantes
-- [ ] 03 React Hooks
-- [ ] 04 Formulários
-- [ ] 05 CSS
-- [ ] 06 React Router
-- [ ] 07 Mais React
-- [ ] 08 Projeto final
-- [ ] 09 Considerações finais
+- [x] 01 JavaScript Completo ES6
+- [ ] 02 JavaScript Para Iniciantes
+- [ ] 03 DOM Para Iniciantes
+- [ ] 04 Objetos
+- [ ] 05 Efeitos no DOM
+- [ ] 06 JavaScript Assíncrono
+- [ ] 07 Classes
+- [ ] 08 Mais JavaScript
+- [ ] 09 Regular Expression
+- [ ] 10 Automação Front End
+- [ ] 11 Refatorar Projeto Final
+- [ ] 12 Slide
+- [ ] 13 Considerações Finais
 
 ## CSS Flexbox
 
@@ -41,7 +43,7 @@
 - [x] 08 Ferramentas
 - [x] 09 Mais HTML e CSS
 - [x] 10 Projeto Final
-- [x] ~~11 JavaScript Básico~~
-- [x] ~~12 JavaScript Projeto~~
-- [x] ~~13 Produção~~
-- [x] ~~14 Considerações Finais~~
+- [x] 11 JavaScript Básico
+- [x] 12 JavaScript Projeto
+- [x] 13 Produção
+- [x] 14 Considerações Finais
