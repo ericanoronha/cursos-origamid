@@ -7,7 +7,7 @@
 ### Lista de módulos
 
 - [x] 01 JavaScript Completo ES6
-- [ ] 02 JavaScript Para Iniciantes
+- [x] 02 JavaScript Para Iniciantes
 - [ ] 03 DOM Para Iniciantes
 - [ ] 04 Objetos
 - [ ] 05 Efeitos no DOM
