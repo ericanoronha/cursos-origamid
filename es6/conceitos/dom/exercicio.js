@@ -7,6 +7,7 @@ console.log(href);
 // possua a classe ativo
 const elementos = document.getElementsByClassName("ativo");
 const primeiroElemento = elementos[0].outerHTML;
+console.log(elementos);
 console.log(primeiroElemento);
 
 // Retorne a linguagem do navegador
